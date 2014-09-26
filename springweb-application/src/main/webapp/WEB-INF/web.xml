@@ -1,7 +1,7 @@
 <web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
           http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
-	version="3.0">
+    version="3.0">
 	<display-name>Servlet 3.0 Web Application</display-name>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
@@ -25,7 +25,7 @@
 		<param-value>production</param-value>
 	</context-param>
 
-	<filter>
+<!-- 	<filter>
 		<filter-name>HiddenHttpMethodFilter</filter-name>
 		<filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
 	</filter>
@@ -33,7 +33,7 @@
 	<filter-mapping>
 		<filter-name>HiddenHttpMethodFilter</filter-name>
 		<servlet-name>/services/*</servlet-name>
-	</filter-mapping>
+	</filter-mapping> -->
 
 	<!-- Spring security filter -->
 	<!-- <filter> <filter-name>springSecurityFilterChain</filter-name> <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class> 
